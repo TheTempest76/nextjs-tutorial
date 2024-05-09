@@ -6,7 +6,6 @@ import {
   HomeIcon,
   DocumentDuplicateIcon,
 } from '@heroicons/react/24/outline';
-import deez from '../icon'
 import Link from 'next/link'
 // Map of links to display in the side navigation.
 // Depending on the size of the application, this would be stored in a database.
@@ -17,8 +16,7 @@ const links = [
     href: '/dashboard/invoices',
     icon: DocumentDuplicateIcon,
   },
-  { name: 'Customers', href: '/dashboard/customers', icon: UserGroupIcon },
-  {name : 'deez ' , href : '/dashboard/deez' , icon : deez}
+  { name: 'Customers', href: '/dashboard/customers', icon: UserGroupIcon }
 ];
 
 export default function NavLinks() {
