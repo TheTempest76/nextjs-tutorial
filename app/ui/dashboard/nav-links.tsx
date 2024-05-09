@@ -6,7 +6,7 @@ import {
   HomeIcon,
   DocumentDuplicateIcon,
 } from '@heroicons/react/24/outline';
-import deez from '../dashboard/icon'
+import deez from '../icon'
 import Link from 'next/link'
 // Map of links to display in the side navigation.
 // Depending on the size of the application, this would be stored in a database.
